@@ -1,4 +1,12 @@
-# barnard
+# barnard - piotrwiewiura fork
+
+It ports over some features from [cantudo/barnard](https://github.com/cantudo/barnard) which currently has build errors.
+
+it adds a flag to start transmission rightaway without any keypresses
+```
+barnard -server mumble.FFF.org:64738 -username prueba -inmediatestart
+```
+
 
 barnard is a terminal-based client for the [Mumble](https://mumble.info) voice
 chat software.

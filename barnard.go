@@ -15,6 +15,8 @@ type Barnard struct {
 	Address   string
 	TLSConfig tls.Config
 
+	InmediateStart bool
+
 	Stream *gumbleopenal.Stream
 
 	Ui            *uiterm.Ui
