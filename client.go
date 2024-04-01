@@ -31,10 +31,8 @@ func (b *Barnard) start() {
 	} else {
 		b.Stream = stream
 		if b.InmediateStart {
-			b.AddOutputLine("Starting source...")
-			b.Stream.StartSource()
-			b.UiTree.Rebuild()
-			b.Ui.Refresh()
+			b.AddOutputLine("Enabling voice...")
+			b.ToggleVoice()
 		}
 	}
 }
