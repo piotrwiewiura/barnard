@@ -33,7 +33,7 @@ func (b *Barnard) start() {
 		if b.InmediateStart {
 			b.AddOutputLine("Starting source...")
 			b.Stream.StartSource()
-			ui.Refresh()
+			b.Ui.Refresh()
 		}
 	}
 }
