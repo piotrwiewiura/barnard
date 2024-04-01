@@ -1,4 +1,4 @@
-module barnard
+module github.com/piotrwiewiura/barnard
 
 go 1.18
 
